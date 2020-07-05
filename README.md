@@ -4,9 +4,11 @@ An open dataset for pixel level classification of Landsat 7 and Landsat 8 Imager
 
 ## Procedure to do the pixel level classification for Landsat 7 and Landsat 8
 * **Step 1 : Run the GEE script**
+
 Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js).
 You will get three images for each area for each year on ehich you have run the above GEE script for classification. 
 * **Step 2 : Run final_classification.py script**
+
 Make a unique folder of each area and and put the all classification outputs for that area (for all the years) in that folder.
 Calssification outputs from step 1 will be in .tif format.
 The final_classification.py scipt will do the following:
@@ -18,6 +20,7 @@ The final_classification.py scipt will do the following:
   (b) Results after rule-based technique.
 5. It will also do the temporal coorection on both kind of results and save the results in two different subfolder under results folder.
 * **Optional- only_temporal_correction.py**
+
 This script is for experimentaion with temporal coorection technique. This performs only the temporal correction.
 
   
