@@ -3,6 +3,7 @@
 An open dataset for pixel level classification of Landsat 7 and Landsat 8 Imagery. The repo contains the code for classification as well as the error correction methods on top of it.
 
 ## Procedure to do the pixel level classification for Landsat 7 and Landsat 8
+![alt text](https://github.com/hariomahlawat/An-open-datset-for-pixel-level-landuse-classification-in-India-for-Landsat-7-and-Landsat-8-imagery/tree/master/images/landsat_classification.png?raw=true)
 * **Step 1 : Run the GEE script**
 
 Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js).
