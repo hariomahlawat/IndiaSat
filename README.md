@@ -11,6 +11,10 @@ You will get three images for each area for each year on ehich you have run the 
 * **Step 2 : Run final_classification.py script**
 
 Make a unique folder of each area and and put the all classification outputs for that area (for all the years) in that folder.
+
+
+command line argument to be given while running the script - path of root folder for a givern area. (path of unique folder which you just created) 
+
 Calssification outputs from step 1 will be in .tif format.
 The final_classification.py scipt will do the following:
 1. Creating the subfolder structure - Make subfolders for each year and put corresponding classifications files to them. 
@@ -22,6 +26,16 @@ The final_classification.py scipt will do the following:
 5. It will also do the temporal coorection on both kind of results and save the results in two different subfolder under results folder.
 * **Optional- only_temporal_correction.py**
 
+
+command line argument to be given while running the script - path of root folder for a givern area. (which you created in step 2)
+
 This script is for experimentaion with temporal coorection technique. This performs only the temporal correction.
+
+* **Optional- check_accuracy_2cat_landsat.py**
+
+command line argument to be given while running the script - path of root folder for a givern area. (which you created in step 2)
+
+This script is to check the bu/nbu accuracy when the groundtruth is available in four categories (green, water, bareland and builtup).
+This script will provide four options to user to check accuracy of outputs from four different methods/techniques. The output of this script will be saved in a .txt file. 
 
   
