@@ -220,7 +220,6 @@ def main():
 		Enter 2 - for Temp Corrected Direct Application
 		Enter 3 - for Rule based Approach
 		Enter 4 - for Temp corrected Rule based Approach
-		Enter 5 - for Temporal Correction on "Temp Corrected Rule based approach"
 		''') 
 	if choice == '1':
 		chosen_folder = input_folder + '/results/'+'direct_application'
