@@ -5,7 +5,9 @@ We compared our results with the results which we got from Goldblatt's dataset.
 Total pixels across all cities were 16,968. The accuracy with Goldblatt dataset came out 89.27%
 * 3.	Next, with our dataset, but the same method as used for Goldblatt, accuracy was 92.35%. That means there is 3 percent increase in accuracy only because of our dataset.
 * 4.	When we used our dataset with our methodology (min, median and max pixels, three images per year). The accuracy increased to 97.684 percent. 
-More than 5 percent increase because of methodology alone.
+More than 5 percent increase because of methodology alone (total 8% increase!).
+
+Note – No temporal correction was done on any of the results so that we can see the exact improvement because of dataset and then classification methodology.
 
 The city wise breakdown of accuracy comparison given below:  
 ![alt text](../images/accuracy_comparison.png?raw=true)
