@@ -8,4 +8,4 @@ Total pixels across all cities were 16,968. The accuracy with Goldblatt dataset 
 More than 5 percent increase because of methodology alone.
 
 The city wise breakdown of accuracy comparison given below:  
-![alt text](../images/landsat_classification.png?raw=true)
+![alt text](../images/accuracy_comparison.png?raw=true)
