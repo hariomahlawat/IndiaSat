@@ -1,0 +1,13 @@
+District - Chandigarh
+
+		-------------------------
+		Goldblatt Dataset
+		-------------------------
+		
+Confusion Matrix (BU, NBU): 
+1252, 197, 
+13, 1390, 
+
+label precision recall avg_precision avg_recall
+    0    98.972  86.404   93.279      92.739
+    1    87.587  99.073   93.279      92.739

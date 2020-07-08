@@ -1,0 +1,13 @@
+District - Gurgaon
+
+		-------------------------
+		Goldblatt Dataset
+		-------------------------
+		
+Confusion Matrix (BU, NBU): 
+1949, 508, 
+424, 1941, 
+
+label precision recall avg_precision avg_recall
+    0    82.132  79.324   80.695      80.698
+    1    79.257  82.072   80.695      80.698

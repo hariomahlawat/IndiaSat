@@ -1,0 +1,13 @@
+District - Delhi
+
+		-------------------------
+		Goldblatt Dataset
+		-------------------------
+		
+Confusion Matrix (BU, NBU): 
+336, 87, 
+199, 477, 
+
+label precision recall avg_precision avg_recall
+    0    62.804  79.433   73.689      74.997
+    1    84.574  70.562   73.689      74.997

@@ -1,0 +1,13 @@
+District - Hyderabad
+
+		-------------------------
+		Goldblatt Dataset
+		-------------------------
+		
+Confusion Matrix (BU, NBU): 
+2530, 69, 
+74, 1626, 
+
+label precision recall avg_precision avg_recall
+    0    97.158  97.345   96.544      96.496
+    1    95.929  95.647   96.544      96.496
