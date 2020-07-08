@@ -1,0 +1,13 @@
+District - Hyderabad
+
+		-----------------------------------------
+		Our Own Dataset
+		-----------------------------------------
+		
+Confusion Matrix (BU, NBU): 
+2593, 6, 
+257, 1443, 
+
+label precision recall avg_precision avg_recall
+    0    90.982  99.769   95.284      92.326
+    1    99.586  84.882   95.284      92.326

@@ -1,0 +1,13 @@
+District - Delhi
+
+		-----------------------------------------
+		Our Own Dataset
+		-----------------------------------------
+		
+Confusion Matrix (BU, NBU): 
+414, 9, 
+262, 414, 
+
+label precision recall avg_precision avg_recall
+    0    61.243  97.872   79.557      79.557
+    1    97.872  61.243   79.557      79.557

@@ -1,0 +1,13 @@
+District - Mumbai
+
+		-----------------------------------------
+		Our Own Dataset
+		-----------------------------------------
+		
+Confusion Matrix (BU, NBU): 
+2389, 9, 
+175, 1323, 
+
+label precision recall avg_precision avg_recall
+    0    93.175  99.625   96.250      93.971
+    1    99.324  88.318   96.250      93.971

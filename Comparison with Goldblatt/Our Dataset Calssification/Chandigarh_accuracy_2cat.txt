@@ -1,0 +1,13 @@
+District - Chandigarh
+
+		-----------------------------------------
+		Our Own Dataset
+		-----------------------------------------
+		
+Confusion Matrix (BU, NBU): 
+1335, 114, 
+65, 1338, 
+
+label precision recall avg_precision avg_recall
+    0    95.357  92.133   93.753      93.750
+    1    92.149  95.367   93.753      93.750

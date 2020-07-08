@@ -1,0 +1,13 @@
+District - Gurgaon
+
+		-----------------------------------------
+		Our Own Dataset
+		-----------------------------------------
+		
+Confusion Matrix (BU, NBU): 
+2444, 13, 
+388, 1977, 
+
+label precision recall avg_precision avg_recall
+    0    86.299  99.471   92.823      91.532
+    1    99.347  83.594   92.823      91.532
