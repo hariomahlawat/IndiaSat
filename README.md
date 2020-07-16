@@ -11,15 +11,18 @@ This repo contains an open dataset for pixel-level classification of Landsat 7 a
 Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js).
 The output of the GEE script will be three images for your area of interest (selected area) for each year.
 
-> *Note - You should have the shpefile of that particular area or you can draw the area by hand in GEE.
-Someone who is new to Google earth engine then you can find all the help from this [place](https://developers.google.com/earth-engine/getstarted)*
+> *Note - You should have the shapefile of that particular area or you can draw the area by hand in GEE.
+Someone, who is new to Google earth engine, can find all the help from this [place](https://developers.google.com/earth-engine/getstarted)*
 
 * **Step 2 : Run final_classification.py script**
 
 It will make a different folder of each area and put all classification outputs for that area (for all the years) in that folder.
 
 
-the command-line argument for the script - the path of root folder for a given area. (path of the unique folder which you just created) 
+The command-line argument for the script - the path of root folder for a given area. (path of the unique folder which you just created).
+For exmample if you are doing classification for an area name Delhi, then put all you classification outputs in a folder named <Delhi> and then run the following command from terminal.
+    pyhton3 final_classification.py Delhi
+
 
 
 * **Optional- only_temporal_correction.py**
