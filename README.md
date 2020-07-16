@@ -42,4 +42,11 @@ the command-line argument to be given while running the script - the path of roo
 This script is to check the BU/NBU accuracy when the ground-truth is available in four categories (green, water, bareland and built-up).
 This script will provide four options to the user to check the accuracy of outputs from four different methods/techniques. The output of this script will be saved in a .txt file. 
 
+## Prerequisites
+* Google Earth Engine(GEE) account to run the google earth engine scripts for downloading and images and run the classifier
+* Following python libraries to run the python scripts
+    * PIL (Pillow)
+    * scipy
+    * numpy
+    * pandas
   
