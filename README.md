@@ -2,8 +2,10 @@
 
 This repo contains an open dataset for pixel-level classification of Landsat 7 and Landsat 8 Imagery along with the code for classification as well as the error correction methods on top of it.
 
-## Procedure to do the pixel-level classification for Landsat 7 and Landsat 8
+## Methodology for pixel-level classification of Landsat 7 and Landsat 8 Imagery
 ![alt text](images/landsat_classification.png?raw=true)
+
+## Step by step procedure to do classification of a selected area.
 * **Step 1  : Run the GEE script**
 
 Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js).
@@ -15,15 +17,7 @@ It will make a different folder of each area and put all classification outputs 
 
 the command-line argument for the script - the path of root folder for a given area. (path of the unique folder which you just created) 
 
-Classification outputs from step 1 will be in .tif format.
-The final_classification.py script will do the following:
-1. Creating the subfolder structure - Make subfolders for each year and put corresponding classifications files to them. 
-2. Conversion of .tif files into .png files for further processing.
-3. Making final classification for each year - by combining the different classification outputs of the same year (max - 3).
-4. It will create a results folder which will create a various subfolder for different kind of techniques:
-  (a) Direct application results
-  (b) Results after the rule-based technique.
-5. It will also do the temporal correction on both kinds of results and save the results in two different subfolders under the results folder.
+
 * **Optional- only_temporal_correction.py**
 
 
