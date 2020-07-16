@@ -37,7 +37,9 @@ the command-line argument to be given while running the script - the path of roo
 
 * **Optional- check_accuracy_2cat_landsat.py**
 
-the command-line argument to be given while running the script - the path of root folder for a given area. (which you created in step 2)
+The command-line argument to be given while running the script - the path of root folder for a given area. (which you created in step 2)
+
+        pyhton3 check_accuracy_2cat_landsat.py Delhi
 
 This script is to check the BU/NBU accuracy when the ground-truth is available in four categories (green, water, bareland and built-up).
 This script will provide four options to the user to check the accuracy of outputs from four different methods/techniques. The output of this script will be saved in a .txt file. 
