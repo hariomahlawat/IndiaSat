@@ -24,14 +24,16 @@ For exmample if you are doing classification for an area name Delhi, then put al
     
         pyhton3 final_classification.py Delhi
 
+> The final classfifcation result will be stored in a folder inside root folder. For above example the classification results of each year will be in Delhi/results/combined_yearly_prediction_temp_corrected. 
 
-
-* **Optional- only_temporal_correction.py**
+* **Optional- only_temporal_correction.py (for developers use)**
 
 
 the command-line argument to be given while running the script - the path of root folder for a given area. (which you created in step 2)
 
-This script is for experimentation with temporal correction technique. This performs only the temporal correction.
+        pyhton3 only_temporal_correction.py Delhi
+
+> This script is for experimentation with temporal correction technique. This performs only the temporal correction.
 
 * **Optional- check_accuracy_2cat_landsat.py**
 
