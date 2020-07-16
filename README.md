@@ -21,7 +21,8 @@ It will make a different folder of each area and put all classification outputs 
 
 The command-line argument for the script - the path of root folder for a given area. (path of the unique folder which you just created).
 For exmample if you are doing classification for an area name Delhi, then put all you classification outputs in a folder named <Delhi> and then run the following command from terminal.
-    pyhton3 final_classification.py Delhi
+    
+        pyhton3 final_classification.py Delhi
 
 
 
