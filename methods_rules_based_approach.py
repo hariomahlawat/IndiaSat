@@ -57,7 +57,7 @@ def merge_prediction(monthly_pixel_predictions):
     #Rule3: (pixel has been predicted as bareland and green atleast once)
     # that means that area has grass at some point of time. Classify it as green area.
     # Choose green between barrenland and green	
-    elif (green_count >0 or barrenland_count>0):
+    elif (green_count >0 and barrenland_count>0):
     	#return '1'
     	return '1' if(green_count>=barrenland_count) else '4'
 
