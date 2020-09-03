@@ -65,10 +65,10 @@ def merge_prediction(monthly_pixel_predictions):
     # Rule3: majority based rule  for remaining (builtup, bareland, green, water)
     elif (green_count >= max([green_count,water_count,builtup_count,barrenland_count])):
         return '1' 
-    elif (barrenland_count >= max([green_count,water_count,builtup_count,barrenland_count])):
-        return '4' 
     elif (water_count >= max([green_count,water_count,builtup_count,barrenland_count])):
-        return '2'         
+        return '2'	
+    elif (barrenland_count >= max([green_count,water_count,builtup_count,barrenland_count])):
+        return '4'         
     else:
     	return '3'
 
