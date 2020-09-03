@@ -58,8 +58,8 @@ def merge_prediction(monthly_pixel_predictions):
     # that means that area has grass at some point of time. Classify it as green area.
     # Choose green between barrenland and green	
     elif (green_count >0 or barrenland_count>0):
-    	return '1'
-    	#return '1' if(green_count>=barrenland_count) else '4'
+    	#return '1'
+    	return '1' if(green_count>=barrenland_count) else '4'
 
 
     # Rule3: majority based rule  for remaining (builtup, bareland, green, water)
