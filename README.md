@@ -1,4 +1,4 @@
-# An-open-datset-for-pixel-level-classification-of-Landsat-7-and-Landsat-8-imagery
+# IndisSat - A datset for pixel-level classification of Landsat-7, Landsat-8 and Sentinel-2A imagery
 
 This repo contains an open dataset for pixel-level classification of Landsat 7 and Landsat 8 Imagery along with the code for classification as well as the error correction methods on top of it.
 
