@@ -56,14 +56,13 @@ var india_image_training_min = india_image.min();
 var india_image_training_max = india_image.max();
 
 //Loading the training dataset
-var ft = ee.FeatureCollection('users/hariomahlawat/landsat8_training10');
+var ft = ee.FeatureCollection('users/hariomahlawat/IndiaSat');
 
 
 function add_normalized_bands(image){
   var ndvi = image.normalizedDifference(['B8', 'B4']).rename('NDVI'); //vegetaion index
   var ndwi = image.normalizedDifference(['B8', 'B12']).rename('NDWI'); //water index
   var ndbi = image.normalizedDifference(['B11', 'B8']).rename('NDBI'); //built-up index
-  //var ndmi = image.normalizedDifference(['B8', 'B11']).rename('NDMI'); //moisture index
   return image.addBands(ndvi).addBands(ndwi).addBands(ndbi);
 }
 
