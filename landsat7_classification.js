@@ -47,7 +47,7 @@ var india_image_training_max = india_image.max();
 
 
 //Loading the training dataset and training the classifier
-var ft = ee.FeatureCollection('users/hariomahlawat/landsat8_training10');
+var ft = ee.FeatureCollection('users/hariomahlawat/IndiaSat');
 
 function add_normalized_bands(image){
   var ndvi = image.normalizedDifference(['B4', 'B3']).rename('NDVI'); //vegetaion index
