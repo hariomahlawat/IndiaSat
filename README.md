@@ -3,12 +3,12 @@
 This repo contains an open dataset for pixel-level classification of Landsat 7, Landsat 8, and Sentinel 2A Imagery along with the code for classification as well as the error correction methods on top of it.
 
 ## Methodology for pixel-level classification of Landsat 7 and Landsat 8 Imagery
-![alt text](images/landsat_classification.png?raw=true)
+![alt text](images/LC_classification_methodology.pdf?raw=true)
 
 ## Step by step procedure to do classification of a selected area.
 * **Step 1  : Run the GEE script**
 
-Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js or sentinel2_classification.js).
+Run the corresponding GEE script for Landsat 7 or Landsat 8. (landsat7_classification.js or landsat8_classification.js or sentinel2A_classification.js).
 The output of the GEE script will be three images for your area of interest (selected area) for each year.
 
 > *Note - You should have the shapefile of that particular area or you can draw the area by hand in GEE.
@@ -39,7 +39,7 @@ the command-line argument to be given while running the script - the path of roo
 
 The command-line argument to be given while running the script - the path of root folder for a given area. (which you created in step 2)
 
-        ptyhon3 check_accuracy_2cat_landsat.py Delhi
+        python3 check_accuracy_2cat_landsat.py Delhi
 
 This script is to check the BU/NBU accuracy when the ground-truth is available in four categories (green, water, bareland and built-up).
 This script will provide four options to the user to check the accuracy of outputs from four different methods/techniques. The output of this script will be saved in a .txt file. 
